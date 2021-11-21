@@ -1,1 +1,1 @@
-# ajs_9-1_Math
+# ajs_9-1_Math [![Build status](https://ci.appveyor.com/api/projects/status/9ujl5ff68arao5ik?svg=true)](https://ci.appveyor.com/project/SergeStepanov/ajs-9-1-math)
