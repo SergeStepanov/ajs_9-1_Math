@@ -22,7 +22,7 @@ export default class MathCharacter extends Character {
   }
 
   get attack() {
-    this._attack -= (this.distance - 1) * 10;
+    this._attack -= (this._attack * (10 / 100) * (this.distance - 1));
 
     if (this.stoned) {
       this._attack -= Math.log2(this.distance) * 5;

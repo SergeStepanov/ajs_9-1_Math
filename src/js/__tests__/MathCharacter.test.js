@@ -12,11 +12,11 @@ test('работа get attack ', () => {
 
 test('работа get attack ', () => {
   const magic = new Magician('magic');
-  magic.attack = 100;
+  magic.attack = 200;
   magic.stoned = true;
   magic.distance = 2;
 
-  expect(magic.attack).toBe(85);
+  expect(magic.attack).toBe(175);
 });
 
 test('работа get attack ', () => {

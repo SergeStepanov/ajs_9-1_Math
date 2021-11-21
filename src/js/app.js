@@ -3,7 +3,7 @@ import Magician from './Magician';
 import Daemon from './Daemon';
 
 const magic = new Magician('gnom');
-magic.attack = 100;
+magic.attack = 200;
 magic.stoned = true;
 magic.distance = 2;
 
